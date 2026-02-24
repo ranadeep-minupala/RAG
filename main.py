@@ -7,9 +7,9 @@ from src.embedder import build_vector_store
 from src.bot import ask_bot_part3
 
 policies_text, faq_text, business_info = load(
-    "Faq_Bot/data/policies.txt",
-    "Faq_Bot/data/faq.txt",
-    "Faq_Bot/data/get_business_info.json"
+    "data/policies.txt",
+    "data/faq.txt",
+    "data/get_business_info.json"
 )
 
 chunks = chunk_texts(faq_text, policies_text)
