@@ -1,0 +1,76 @@
+{
+  "policy": {
+    "title": "Corporate Expense Policy",
+    "effective_date": "2026-01-01",
+    "last_updated": "2026-02-06",
+    "owner": "Finance Department"
+  },
+
+  "contacts": {
+    "expenses": {
+      "email": "expense@company.com",
+      "phone": "(555) 123-5500",
+      "hours": "Mon–Fri, 8:00 AM–5:00 PM EST"
+    },
+    "travel": {
+      "email": "travel@company.com",
+      "phone": "(555) 123-5501",
+      "availability": "24/7 for emergencies"
+    },
+    "hr": {
+      "email": "hr@company.com",
+      "phone": "(555) 123-5502"
+    },
+    "ethics_hotline": {
+      "phone": "1-888-XXX-XXXX",
+      "availability": "24/7, anonymous",
+      "website": "ethics.company.com"
+    }
+  },
+
+  "limits": {
+    "travel_per_trip": 500,
+    "hotel_per_night": 150,
+    "meals_per_day": 50,
+    "meals_high_cost_city": 55,
+    "entertainment_per_event": 100,
+    "office_supplies_per_month": 25,
+    "mileage_rate_per_mile": 0.67
+  },
+
+  "receipts": {
+    "required_for_expenses_over": 25,
+    "lost_receipt_allowed": true,
+    "lost_receipt_manager_approval_over": 50
+  },
+
+  "submission": {
+    "standard_deadline_days": 30,
+    "late_31_60_days": "Manager approval required",
+    "late_61_90_days": "Department head approval required",
+    "over_90_days": "Finance Director approval required"
+  },
+
+  "approvals": {
+    "pre_approval_required_for": [
+      "Any expense over $500",
+      "Entertainment over $50",
+      "International travel",
+      "Out-of-policy expenses"
+    ]
+  },
+
+  "reimbursement": {
+    "standard_timeline": "14 business days after approval",
+    "complex_expenses": "Up to 21 business days",
+    "payment_method": "Direct deposit"
+  },
+
+  "non_reimbursable_examples": [
+    "Personal expenses",
+    "Alcohol under per diem",
+    "Commuting to regular workplace",
+    "Fines or penalties",
+    "Personal entertainment"
+  ]
+}
